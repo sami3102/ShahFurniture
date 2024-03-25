@@ -1,0 +1,153 @@
+body{
+    padding: 0;
+    margin:0;
+    
+}
+.top_nav_bar{
+    a{
+    text-decoration: none;
+    font-size:24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: peachpuff;
+    text-align: center;
+    margin: 35px;
+    padding: 10px;
+    }
+    padding: 10px;
+    background-color:rgb(141, 85, 46);
+    position: relative;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+}
+.top_nav_bar a:hover{
+    color: black;
+    background-color: rgb(209, 138, 87);
+}
+.top_nav_bar a:active{
+    background-color: rgb(59, 59, 59);
+    color: whitesmoke;
+}
+
+.home_pic{
+   
+
+}
+#welcome_image{
+    height: 600px;
+    width: 100%;
+    opacity: 50%;
+}
+
+
+/*Sign up form */
+
+.signup_form{
+    padding: 40px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 3);
+    width: 400px;
+    background: whitesmoke;
+     text-align: center;
+     border-radius: 20px;
+     margin: 8% auto 0;
+    input{
+        height: 30px;
+        margin-bottom: 10px;
+        width: 300px;
+        text-align: center;
+        border: 2px solid rgb(124, 72, 36);
+        color: rgb(28, 28, 28);
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    .select_form{
+        padding-left: 36px;
+        width: 307px;
+        height: 30px;
+        text-align: center;
+        border: 2px solid rgb(124, 72, 36);
+        color: rgb(28, 28, 28);
+        font-family: 'Courier New', Courier, monospace;
+        
+}
+     button{
+        font-family: 'Courier New', Courier, monospace;
+        color: whitesmoke;
+        background-color: rgb(194, 98, 98);
+        width: 70px;
+        height: 30px;
+        border-radius: 15px;
+     }
+     button:hover{
+        background-color: brown;
+        color: aquamarine;
+     }
+}
+
+/* Sign Up Form End Here */
+
+
+/*item_list_section */
+
+.item_list_container{
+    background-color: rgba(217, 132, 71, 0.642);
+}
+
+.item_list_section {
+    display: inline-block;
+    position: relative;
+    margin: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 30px;
+    p{
+        color: rgb(91, 37, 37);
+    }
+
+}
+.item_list_section a{
+    text-decoration: none;
+}
+.item_list_section img{
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+
+/* End list section here */
+
+/* Footer Start Here */
+.footer_background{
+    background-color: bisque;
+}
+
+.footer a{
+   color: rgb(0, 0, 0);
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   display: inline-block;
+   font-size: 15px;
+   position: relative;
+   margin: 30px;
+}
+#contact_footer{
+    left: 300px;
+}
+#aboutus_footer{
+    left: 400px;
+}
+#whatsapp_footer{
+    left: 500px;
+}
+#location_footer{
+    left: 600px;
+}
+
+#copyright_footer{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
